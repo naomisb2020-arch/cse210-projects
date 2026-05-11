@@ -6,9 +6,9 @@ class Program
     {
         Console.WriteLine("Hello World! This is the Exercise2 Project.");
 
-        Console.Write("\nWhat is your grade porcentage? ");
-        string calification = Console.ReadLine();
-        int percent = int.Parse(calification);
+        Console.Write("\nWhat is your grade percentage? ");
+        string grade = Console.ReadLine();
+        int percent = int.Parse(grade);
 
         if (percent >= 90)
         {
@@ -38,7 +38,7 @@ class Program
 
         if (percent >= 70)
         {
-            Console.WriteLine("Congratulation you past the cours!");
+            Console.WriteLine("Congratulations! You passed the course!");
         }
         else
         {
