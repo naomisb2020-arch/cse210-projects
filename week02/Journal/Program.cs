@@ -1,5 +1,7 @@
 using System;
 
+// EXTRA
+// The 'default' case was added to handle unexpected user input.
 class Program
 {
     static void Main(string[] args)
